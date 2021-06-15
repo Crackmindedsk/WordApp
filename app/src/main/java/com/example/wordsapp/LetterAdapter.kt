@@ -24,7 +24,7 @@ import android.view.accessibility.AccessibilityNodeInfo
 import android.widget.Button
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
-import com.example.wordsapp.DetailActivity.Companion.LETTER
+import com.example.wordsapp.WordListFragment.Companion.LETTER
 
 /**
  * Adapter for the [RecyclerView] in [MainActivity].
