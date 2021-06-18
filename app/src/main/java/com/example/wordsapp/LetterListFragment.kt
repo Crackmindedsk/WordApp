@@ -26,9 +26,8 @@ class LetterListFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-         _binding= FragmentLetterListBinding.inflate(inflater,container,false)
-        val view=binding.root
-        return view
+        _binding = FragmentLetterListBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -84,7 +83,7 @@ class LetterListFragment : Fragment() {
             }
             //Otherwise, do nothing and use the core event handling
 
-            //when clauses require that all possible paths be accounted for explicity,
+            //when clauses require that all possible paths be accounted for explicitly,
             //for instances both the true and false cases if the value is a Boolean,
             //or an else to catch all unhandled cases.
             else -> super.onOptionsItemSelected(item)
